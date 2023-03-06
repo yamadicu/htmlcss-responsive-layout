@@ -1,0 +1,93 @@
+
+/* GENERAL */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.margin{
+    margin: 3%;
+}
+
+.padding-inline{
+    padding-inline: 2%;
+}
+
+h2{
+    color: rgb(43, 83, 168);
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.left{
+    text-align: left;
+}
+
+.padding-bottom{
+    padding-bottom: 10%;
+}
+
+/* GENERAL COLOR */
+
+.white{
+    color: white;
+}
+
+.purple{
+    background-color: rgb(171, 98, 240);
+}
+
+/* HEADER */
+
+/* NAV */
+header nav{
+    background-color: rgb(43, 83, 168);
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon{
+    font-size: 25px;
+}
+
+/* FINE NAV */
+
+/* SCHEDE */
+
+.scheda{
+    background-color: rgb(100, 212, 247);
+    margin-top: 10%;
+    border-radius: 25px;
+    text-align: center;
+    padding-inline: 5%;
+}
+
+.scheda p{
+    color: rgb(87, 87, 87);
+    padding-bottom: 5%;
+}
+
+#bottone{
+    background-color: rgb(43, 83, 168);
+    border-radius: 25px;
+    margin-inline: 20%;
+    height: 25px;
+}
+
+.scheda div a{
+    text-decoration: none;
+    color: white;
+}
+
+.immagine{
+    width: 100%;
+    padding-top: 5%;
+}
+
+.img-scheda{
+    padding-top: 10%;
+    font-size: 100px;
+    color: rgb(43, 83, 168);
+}
