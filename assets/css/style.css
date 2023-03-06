@@ -11,6 +11,10 @@
     margin: 3%;
 }
 
+.margin-top-5{
+    margin-top: 5%;
+}
+
 .padding-inline{
     padding-inline: 5%;
 }
@@ -37,10 +41,25 @@ h3{
     width: 100%;
 }
 
+.txt-center{
+    text-align: center;
+}
+
+.radius-25{
+    border-radius: 25px;
+}
 /* GENERAL COLOR */
 
 .white{
     color: white;
+}
+
+.bg-white{
+    background-color: white;
+}
+
+.text-purple{
+    color: rgb(149,147,230);
 }
 
 .purple{
@@ -105,11 +124,20 @@ header nav{
 .app{
     background-color: white;
     border-radius: 25px;
-    text-align: center;
 }
 
 .cerchio{
     padding: 5%;
     border-radius: 50%;
     margin-inline: 40%;
+}
+
+/* SCHEDE TESTIMONE */
+
+.img-testimone{
+    width: 40%;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
