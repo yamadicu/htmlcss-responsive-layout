@@ -23,6 +23,10 @@
     margin-top: 5%;
 }
 
+.margin-bottom{
+    margin-bottom: 5%;
+}
+
 .padding-inline{
     padding-inline: 5%;
 }
@@ -342,4 +346,30 @@ footer{
     .scheda{
         margin-top: 1.25rem;
     }
+
+    /* PRIMA SEZIONE VIOLA */
+
+    .margin-pc{
+        margin-inline: 20%;
+    }
+
+    .flex-pc{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+   .prima-sez-viola{
+    width: 45%;
+    margin-top: 10%;
+   } 
+
+   .img-viola{
+    padding-bottom: 5rem;
+   }
+
+   .img-due{
+    align-self: flex-end;
+   }
+
 }
