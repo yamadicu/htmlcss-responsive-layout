@@ -272,6 +272,7 @@ footer{
         max-width: 30%;
         max-height: 30rem;
         margin-left: 1rem;
+        margin-top: 1.25rem;
     }
 
     #demo-img{
@@ -336,5 +337,9 @@ footer{
 
     #scheda-uno{
         display: flex;
+    }
+    
+    .scheda{
+        margin-top: 1.25rem;
     }
 }
