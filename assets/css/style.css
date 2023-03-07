@@ -7,6 +7,14 @@
     box-sizing: border-box;
 }
 
+.flex{
+    display: flex;
+}
+
+.wrap{
+    flex-wrap: wrap;
+}
+
 .margin{
     margin: 3%;
 }
@@ -52,6 +60,14 @@ h3{
 a{
     text-decoration: none;
 }
+
+.relative{
+    position: relative;
+}
+
+.block{
+    display: block;
+}
 /* GENERAL COLOR */
 
 .white{
@@ -77,10 +93,24 @@ header nav{
     background-color: rgb(43, 83, 168);
     display: flex;
     justify-content: space-between;
+    padding: 1.25rem;
+    align-items: center;
 }
 
 .icon{
     font-size: 25px;
+}
+
+header nav div ul{
+    display: none;
+}
+
+ul li{
+
+}
+
+.bott{
+    padding: 8px 12px;
 }
 
 /* FINE NAV */
@@ -139,7 +169,8 @@ header nav{
 /* SCHEDE TESTIMONE */
 
 .img-testimone{
-    width: 40%;
+    width: 10rem;
+    height: 8rem;
     border-radius: 50%;
     display: block;
     margin-left: auto;
@@ -147,12 +178,74 @@ header nav{
 }
 
 .numero-scheda{
-    font-size: 50px;
+    font-size: 5rem;
 }
 
 .bot-more{
-    height: 25px;
+    height: 2rem;
     display: block;
     text-align: center;
     width: 20%;
+}
+
+/* ABOUT US */
+
+.about-us{
+    text-align: left;
+}
+
+.img-about{
+    width: 10rem;
+    height: 8rem;
+    border-radius: 50%;
+    display: block;
+}
+
+.virgolette{
+    position: absolute;
+    top: 0.5rem;
+    left: 7rem;
+    font-size: 2rem;
+}
+
+/* GET STARTED */
+
+.pink{
+    color: pink;
+    font-size: 1.26rem;
+}
+
+.free{
+    color: orange;
+    font-size: 2em;
+}
+
+.linea{
+    text-decoration: underline;
+}
+
+
+/* FOOTER */
+
+footer{
+    background-color: rgb(30, 27, 27);
+}
+
+footer section{
+    padding-inline: 20%;
+}
+
+/*  VERSIONE TABLET */
+
+
+@media only screen and (min-width: 768px){
+
+}
+
+/* VERSONE DESKTOP */
+
+
+@media only screen and (min-width: 992px){
+
+
 }
