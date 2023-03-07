@@ -372,4 +372,13 @@ footer{
     align-self: flex-end;
    }
 
+   /* LAVORA CON NOI */
+
+   #schede-us div{
+    max-width: 30%;
+   }
+
+   /* ABOUT US */
+
+   
 }
