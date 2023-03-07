@@ -380,5 +380,22 @@ footer{
 
    /* ABOUT US */
 
-   
+   #block-30{
+    max-width: 20%;
+   }
+
+   .text-pc{
+    font-size: 3rem;
+   }
+
+   .p-pc{
+    font-size: 1.25rem;
+    line-height: 2rem;
+   }
+
+   /* PARTE FINALE */
+
+   #free-pc{
+    font-size: 4rem;
+   }
 }
